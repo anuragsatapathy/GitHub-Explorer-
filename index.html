@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <span class="title-github">GitHub</span>
+      <span class="title-explorer">Explorer</span>
+    </h1>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search GitHub users or repos..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="toggle">
+      <button id="userSearchBtn" class="active">Users</button>
+      <button id="repoSearchBtn">Repositories</button>
+    </div>
+
+    <h2>Results</h2>
+    <div id="results"></div>
+
+    <h2>Favorites</h2>
+    <div id="favorites"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
